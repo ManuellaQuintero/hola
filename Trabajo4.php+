@@ -1,0 +1,13 @@
+<html>
+<head></head>
+<body>
+ <?php
+ $dia = age("d");
+ if ($dia <= 18) {
+ echo "Puede pagar ";
+ } else {
+ echo "Factura vencida";
+ }
+ ?>
+</body>
+</html>
